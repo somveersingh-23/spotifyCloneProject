@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img/logo.png" alt="Spotify">Spotify</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of 2024 - New Treding Song</h1>
+            <div class="songItemContainer">
+                <div class="songItems">
+                    <img src="img/aaj_ki_rat.jpeg" alt="1">
+                    <span>Aaj Ki raat Maja-Stree2</span>
+                    <span class="songlistplay"><span class="timeStamp">02:02<i id="0" class="far songItemplay  fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="img/tauba.jpeg" alt="1">
+                    <span class="songName">Husan Tera Tauba Tauba</span>
+                    <span class="songlistplay"><span class="timeStamp">02:42<i id="1" class="far songItemplay  fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="img/pasoori.jpeg" alt="1">
+                    <span class="songName">pasoori By coke Studio</span>
+                    <span class="songlistplay"><span class="timeStamp">4:26<i id="2" class="far songItemplay  fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="img/chuttmalle.jpg" alt="1">
+                    <span class="songName">chuttamalle Devara Song </span>
+                    <span class="songlistplay"><span class="timeStamp">02:42<i id="3" class="far songItemplay  fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="img/meri_jan.jpg" alt="1">
+                    <span class="songName">Meri jaan Meri jaan Gangubai</span>
+                    <span class="songlistplay"><span class="timeStamp">02:44<i id="4" class="far songItemplay  fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="img/images (2).jpeg" alt="1">
+                    <span class="songName">Akshath-Nadaaniyan Song</span>
+                    <span class="songlistplay"><span class="timeStamp">02:49<i id="5" class="far songItemplay  fa-play-circle"></i> </span></span>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="songbanner"></div>
+        
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0"  value="0" max="100">
+        <div class="icons">
+            <!--fontaswesome_icons-->
+            <i class="fas fa-2x fa-step-backward " id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id = "masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="img/5uwq.gif" width="45px" id="gif" alt="" srcset="" > <span id="masterSongName">Aaj ki raat maja</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5af15d9d2d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
